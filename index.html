@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <div class="top-panel">
+        <div class="container top-panel">
             <div class="wrap">
                 <div class="wrap-item">
                     <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
@@ -34,7 +34,7 @@
 
             <div class="wrap">
                 <div class="wrap-item login">
-                    <div class="icon auth"> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                    <div class="icon huge"> <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
@@ -43,7 +43,7 @@
                     <span class="hidden">Zaloguj się</span>
                 </div>
                 <div class="wrap-item register">
-                    <div class="icon auth">
+                    <div class="icon huge">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -56,6 +56,80 @@
             </div>
         </div>
     </header>
+
+    <section class="header-content">
+        <div class="container low-panel">
+            <div class="cart">
+                <div id='toggle-mobile' class="icon dark huge">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </div>
+                <div class="icon dark huge">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="1">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                    </svg>
+                    <div class="counter">
+                        2
+                    </div>
+                </div>
+            </div>
+            <div class="logo-container">
+                <img class="logo" src="assets/logo.png" alt="logo">
+
+            </div>
+
+
+            <div class="search-bar">
+                <input class="search" type="text" placeholder="Co chcesz kupić?">
+                <div class="icon search-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container">
+            <div class="menu underline">
+                <button>Kategorie</button>
+                <button>Nowości</button>
+                <button>Promocje</button>
+                <button>Wyprzedaże</button>
+                <button>KOlekcje sezony</button>
+                <button>Nasza oferta</button>
+                <button>Trendy 2018</button>
+                <button>Blog</button>
+                <button>Kontakt</button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="mobile-menu">
+        <ul class="menu-list">
+            <li>Kategorie</li>
+            <li>Nowości</li>
+            <li>Promocje</li>
+            <li>Wyprzedaże</li>
+            <li>KOlekcje sezony</li>
+            <li>Nasza oferta</li>
+            <li>trendy 2018</li>
+            <li>Blog</li>
+            <li>Kontakt</li>
+            <li id="close-menu">X</li>
+        </ul>
+    </div>
 </body>
+
+<script src="main.js"></script>
 
 </html>
